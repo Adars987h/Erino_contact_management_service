@@ -30,7 +30,12 @@ cd Erino_contact_management_service
 npm install
 ```
 
-### 3. Start the Development Server
+### 3. Setup the Databse(MySQL)
+Use the command below to create a new database with the name "ErinoDb"
+```
+CREATE DATABASE ErinoDb;
+```
+### 4. Start the Development Server
 
 ```
 node index.js
